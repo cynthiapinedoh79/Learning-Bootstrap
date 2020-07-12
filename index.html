@@ -8,6 +8,8 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
 <body>
@@ -42,7 +44,7 @@
 </div>
 <!--Div-->
 </nav>
-    <article class="container mt-3">
+<!--<div class="container alert-container">
     <div class="row d-none d-sm-block">
         <div class="col-12">
             <div class="alert alert-warning">
@@ -51,25 +53,30 @@
             </div>
         </div>
     </div>
+</div>-->
+<div class="container-fluid callout-container">
     <!--Callout-->
+    <div class="opaque-overlay">ckdnkjlh</div>
     <div class="row">
         <div class="col-12">
         <section class="callout jumbotron text-center">
-        <h1>The finest whiskeys delivered to your doorstep</h1>
+        <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep</h1>
+        <hr class="block-divider block-divider--orange">
         <p class="lead">Sign up today to start receiving the world's best whiskey every month. 
             <s class="d-none d-sm-inline">$19.99</s> 
             <span class="d-inline d-sm-none"><br></span>
             <strong><mark> First one is free!</mark></strong>
         </p>
-        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
         <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly</small></p>
         </section>
         </div>
     </div>
     <!--/.callout-->
-    <hr>
+</div>
 
     <!--Quotes-->
+    <div class="container quotes-container">
     <section class="quotes">
         <div class="row">
             <div class="col-12 my-5">
@@ -105,9 +112,10 @@
             </div>
     </section>
     <!--/.quotes-->
-    <hr>
+    </div>
 
     <!--Features-->
+    <div class="features-container">
     <section class="features">
         <div class="row">
             <div class="col-12 my-5">
@@ -140,7 +148,7 @@
         </div>
     </section>
     <!--/ .features-->
-    <hr>
+    </div>
 
     <!--Monthly Favorites-->
     <section class="table">
@@ -185,7 +193,6 @@
     </section>
     <!--/.monthly favorites-->
     <hr>
-    </article>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
   <div class="modal-dialog" role="document">
