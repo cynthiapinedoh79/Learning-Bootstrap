@@ -56,7 +56,7 @@ body {
 }
 
 .jumbotron-header {
-    color:#fde1ca;
+    color:#ffd7a4;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -89,6 +89,7 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus{
-    background-color:orange;
-    border-color: orange;
+    color: #fff2d3;
+    background-color:#b5790c;
+    border-color: #b5790c;
 }
