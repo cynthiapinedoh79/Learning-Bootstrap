@@ -1,6 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
     }
+
+.container-wrapper{
+
+}
+
+.container-wrapper--red{
+    background-color: orange;
+    color:#ffe3ae;
+}
+
+.block-divider--white{
+    background-color: #ffe3ae;
+}
+
 .alert-container .col-12{
     padding-left:0;
     padding-right: 0;
@@ -48,12 +62,33 @@ body {
 
 .features-container{}
 
+/*Page Headers*/
+
+.page-header{
+margin-bottom: 0;
+border-bottom: 0;
+text-align: center;
+}
+
+.page-header h2{
+    margin-top:0;
+}
+
+.quotes .page-header{
+    margin-bottom:25px;
+}
+
 /*Block dividers*/
 
 .block-divider{
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
+}
+
+.block-divider--white {
+    background-color: #ffe3ae;
 }
 
 .block-divider--orange{
@@ -62,6 +97,13 @@ body {
 
 .block-divider--short{
     width:35px;
+}
+
+/*Content containers*/
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /*Navbar*/
@@ -112,7 +154,7 @@ body {
 .jumbotron small{
     font-size: 60%;
     font-style: italic;
-    columns: #e0e0e0;
+    columns: #f7f7f7;
 }
 
 /*Buttons*/
@@ -123,7 +165,7 @@ body {
 }
 
 .btn--red{
-    color:white;
+    color:#ffe3ae;
     background-color: orange;
     border-color: orange;
 }
@@ -135,4 +177,38 @@ body {
     color: #fff2d3;
     background-color:#b5790c;
     border-color: #b5790c;
+}
+
+
+.feature{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size:45px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color:#ffe3ae;
+    border-color: #ffe3ae;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top:10px;
+    color: orange;
+}
+
+.badge-success {
+    border-radius: 10px;
+}
+
+.table th td{
+    color: #212529;
+    width: 100%;
+    height: 100%;   
+    text-align:center;
+    margin-bottom:40px;
 }
